@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ferias-app:war">
+    <output-path>$PROJECT_DIR$/ferias-app/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ferias-app</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ferias-module.war">
+      <element id="artifact" artifact-name="ferias-app:war exploded" />
+    </root>
+  </artifact>
+</component>

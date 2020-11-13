@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+        
+  
+  <modelVersion>4.0.0</modelVersion>
+        
+  
+  <groupId>br.com.basis</groupId>
+        
+  
+  <artifactId>ferias</artifactId>
+        
+  
+  <version>1.0-SNAPSHOT</version>
+        
+  
+  <name>[projeto-raiz :: ferias]</name>
+        
+  
+  <packaging>pom</packaging>
+        
+  
+  <dependencyManagement>
+                
+    
+    <dependencies>
+                        
+      
+      <dependency>
+                                
+        
+        <groupId>org.opensingular</groupId>
+                                
+        
+        <artifactId>bom</artifactId>
+                                
+        
+        <version>${singular.version}</version>
+                                
+        
+        <scope>import</scope>
+                                
+        
+        <type>pom</type>
+                            
+      
+      </dependency>
+                    
+    
+    </dependencies>
+            
+  
+  </dependencyManagement>
+        
+  
+  <properties>
+                
+    
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+                
+    
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+                
+    
+    <singular.version>1.9.1-RC1</singular.version>
+                
+    
+    <jdk.version>1.8</jdk.version>
+                
+    
+    <maven.compiler.source>${jdk.version}</maven.compiler.source>
+                
+    
+    <maven.compiler.target>${jdk.version}</maven.compiler.target>
+                
+    
+    <failOnMissingWebXml>false</failOnMissingWebXml>
+            
+  
+  </properties>
+        
+  
+  <build>
+                
+    
+    <plugins>
+                        
+      
+      <plugin>
+                                
+        
+        <groupId>org.apache.maven.plugins</groupId>
+                                
+        
+        <artifactId>maven-compiler-plugin</artifactId>
+                                
+        
+        <configuration>
+                                        
+          
+          <source>${jdk.version}</source>
+                                        
+          
+          <target>${jdk.version}</target>
+                                    
+        
+        </configuration>
+                                
+        
+        <version>3.6.1</version>
+                            
+      
+      </plugin>
+                    
+    
+    </plugins>
+            
+  
+  </build>
+    
+  
+  <modules>
+          
+    
+    <module>ferias-app</module>
+          
+    
+    <module>ferias-static-resources</module>
+      
+  </modules>
+  
+</project>

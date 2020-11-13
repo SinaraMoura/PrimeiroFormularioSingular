@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ferias.iml" filepath="$PROJECT_DIR$/ferias.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ferias-app/ferias-app.iml" filepath="$PROJECT_DIR$/ferias-app/ferias-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ferias-static-resources/ferias-static-resources.iml" filepath="$PROJECT_DIR$/ferias-static-resources/ferias-static-resources.iml" />
+    </modules>
+  </component>
+</project>
